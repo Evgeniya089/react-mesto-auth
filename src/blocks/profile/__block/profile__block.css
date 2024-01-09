@@ -1,0 +1,19 @@
+.profile__block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 18px;
+  margin: 0 0 0 30px;
+  padding: 0;
+  max-width: 336px;
+  align-items: baseline;
+}
+
+/* 320 */
+@media all and (max-width: 650px) {
+  .profile__block {
+    width: 100%;
+    justify-content: center;
+    margin: 26px 0 0;
+    gap: 14px 10px;
+  }
+}

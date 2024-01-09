@@ -1,0 +1,34 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 36.25px 0 0;
+  width: calc(100% - 2*200px);
+  max-width: 880px;
+}
+
+@media all and (max-width: 1024px) {
+  .content {
+    width: calc(100% - 2*85px);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .content {
+    width: calc(100% - 2*55px);
+  }
+}
+
+@media all and (max-width: 650px) {
+  .content {
+    width: calc(100% - 2*35px);
+  }
+}
+
+/* 320 */
+@media all and (max-width: 430px) {
+  .content {
+    width: calc(100% - 2*19px);
+    padding-top: 38.25px;
+  }
+}

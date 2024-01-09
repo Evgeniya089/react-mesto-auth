@@ -1,0 +1,28 @@
+/* .header__logo{
+  margin: 0 0 41px;
+  padding: 0;
+  max-width: 142px;
+  max-height: 33px;
+} */
+
+/* .header__logo {
+  width: 103px;
+  height: 24px;
+  margin: 0 190px 31px 27px;
+} */
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 103px;
+    height: 24px;
+    margin: 0 190px 31px 27px;
+  }
+}
+
+/* 320 */
+@media all and (max-width: 430px) {
+  .header__logo {
+    margin: 0 0 31.6px 27px;
+    max-width: 103.74px;
+    max-height: 24.4px;
+  }
+}

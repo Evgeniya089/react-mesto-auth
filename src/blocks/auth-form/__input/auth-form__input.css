@@ -1,0 +1,10 @@
+.auth-form__input {
+   all: unset;
+   width: 100%;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   border-bottom: 2px solid white;
+   padding-bottom: 13px;
+}

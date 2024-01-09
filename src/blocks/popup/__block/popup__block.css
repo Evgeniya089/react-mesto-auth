@@ -1,0 +1,22 @@
+.popup__block { 
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 34px 36px 37px;
+  background: #fff;
+  color: #000;
+  max-width: 430px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  /* display: none;*/
+  /* transition: 0.5s ease-in-out;
+  /* transform: translate(-50%, -50%) scale(0);/* Центрируем и масштабируем в само окно*/
+}
+
+@media all and (max-width: 520px) {
+  .popup__block {
+    max-width: 282px;
+    padding: 25px 22px;
+  }
+}

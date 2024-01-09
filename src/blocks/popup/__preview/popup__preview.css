@@ -1,0 +1,7 @@
+.popup__preview {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  z-index: 9999;
+}

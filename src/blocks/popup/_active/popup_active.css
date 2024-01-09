@@ -1,0 +1,6 @@
+.popup_active { /*  При добавлении класса 'active'*/
+  display: flex;
+  opacity: 1;   /*  Показываем фон и попап*/
+  pointer-events: all; /* Возвращаем события*/
+  transition: 0.5s all;
+}

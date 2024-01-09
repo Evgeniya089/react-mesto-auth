@@ -1,0 +1,40 @@
+.header {
+  margin: 0 auto;
+  padding: 45px 0 0;
+  width: calc(100% - 2 * 200px);
+  max-width: 880px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-bottom: 41px;
+}
+/* .header {
+  margin: 45px auto 40px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-bottom: 41px;
+} */
+
+@media all and (max-width: 1024px) {
+  .header {
+    width: calc(100% - 2 * 85px);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .header {
+    width: calc(100% - 2 * 60px);
+  }
+}
+
+@media all and (max-width: 650px) {
+  .header {
+    width: calc(100% - 2 * 40px);
+  }
+}
+
+/* 320 */
+@media all and (max-width: 430px) {
+  .header {
+    padding-top: 28px;
+    width: 100%;
+    margin: 0;
+  }
+}
