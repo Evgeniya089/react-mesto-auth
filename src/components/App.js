@@ -40,7 +40,7 @@ function App() {
    const api = new Api({
     baseUrl: "https://api.evgenia.nomoredomainsmonster.ru",
     headers: {
-      Authorization: `Bearer ${localStorage.getItem('token')}`,
+      Authorization: `Bearer ${localStorage.getItem('jwt')}`,
       "Content-Type": "application/json",
     },
   });
